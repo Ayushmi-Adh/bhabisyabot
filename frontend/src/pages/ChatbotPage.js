@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import axios from "axios";
+import API_BASE from "../api";
 import ChatBubble from "../components/ChatBubble";
 import TypingBubble from "../components/TypingBubble";
 import ConstellationBackground from "../ConstellationBackground";
@@ -24,7 +25,7 @@ const ChatbotPage = () => {
         setIsTyping(true);
         try {
             const res = await axios.post(
-                `http://localhost:8000/chatbot/respond?step=${chatStep}&user_input=${encodeURIComponent(text)}`
+                `${API_BASE}/chatbot/respond?step=${chatStep}&user_input=${encodeURIComponent(text)}`
             );
 
             const botReply = res.data.bot || "No reply from server";

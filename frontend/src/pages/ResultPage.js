@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
+import API_BASE from "../api";
 import ConstellationBackground from "../ConstellationBackground";
 import "../styles/result.css";
 import { useNavigate } from "react-router-dom";
@@ -43,7 +44,7 @@ const ResultPage = () => {
                 };
 
                 const res = await axios.post(
-                    "http://localhost:8000/recommend",
+                    `${API_BASE}/recommend`,
                     userFeatures
                 );
 

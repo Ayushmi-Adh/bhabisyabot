@@ -1,11 +1,10 @@
 fastapi
 uvicorn
-pyodbc
 python-dotenv
 pandas
 scikit-learn
+joblib
 spacy
 textblob
-transformers
 beautifulsoup4
 requests

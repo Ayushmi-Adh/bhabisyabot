@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
+import API_BASE from "../api";
 import ConstellationBackground from "../ConstellationBackground";
 import "../styles/essay.css";
 import { useNavigate } from "react-router-dom";
@@ -40,7 +41,7 @@ const EssayPage = () => {
 
         try {
             // 4️⃣ Send essay + user_id to backend for saving and analysis
-            const res = await axios.post("http://localhost:8000/essay/analyze", {
+            const res = await axios.post(`${API_BASE}/essay/analyze`, {
                 user_id: parseInt(userId),
                 essay: essay
             });
