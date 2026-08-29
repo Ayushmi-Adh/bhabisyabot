@@ -11,9 +11,6 @@ const EssayPage = () => {
     const [loading, setLoading] = useState(false);
     const navigate = useNavigate();
 
-    // Get userId from sessionStorage to ensure user completed chatbot
-    const userId = sessionStorage.getItem("userId");
-
     const handleAnalyze = async () => {
         setError("");
         const userId = sessionStorage.getItem("userId");
