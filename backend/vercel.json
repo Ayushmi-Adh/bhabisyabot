@@ -1,5 +1,6 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
+  "buildCommand": "python -m spacy download en_core_web_sm",
   "functions": {
     "main.py": {
       "maxDuration": 60,
