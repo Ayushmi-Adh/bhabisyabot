@@ -1,0 +1,55 @@
+Age,Education,Hobbies,TargetCareer
+18,High School,reading;coding,Software Engineer
+19,High School,coding;gaming,Software Engineer
+20,Bachelor,coding;math,Data Scientist
+21,Bachelor,math;research,Data Scientist
+22,Bachelor,writing;art,Graphic Designer
+23,Bachelor,art;painting,Graphic Designer
+19,High School,teaching;writing,Teacher
+20,High School,mentoring;reading,Teacher
+21,Bachelor,management;planning,Business Analyst
+22,Bachelor,finance;management,Business Analyst
+18,High School,reading;writing,Journalist
+19,Bachelor,photography;writing,Journalist
+20,Bachelor,music;performance,Musician
+21,High School,music;composition,Musician
+22,Bachelor,art;design,Interior Designer
+23,Bachelor,painting;sketching,Interior Designer
+18,High School,sports;coaching,Coach
+19,Bachelor,sports;training,Coach
+20,Bachelor,biology;research,Biologist
+21,Bachelor,chemistry;experiments,Chemist
+22,Bachelor,physics;math,Physicist
+23,Bachelor,math;coding,Statistician
+20,High School,writing;photography,Photographer
+21,Bachelor,design;drawing,Graphic Designer
+22,Bachelor,coding;gaming,Software Engineer
+23,Bachelor,math;AI,Data Scientist
+24,Bachelor,management;finance,Business Analyst
+19,High School,mentoring;teaching,Teacher
+20,Bachelor,writing;blogging,Journalist
+21,Bachelor,music;composition,Musician
+22,Bachelor,painting;design,Interior Designer
+23,Bachelor,sports;training,Coach
+24,Bachelor,biology;chemistry,Biologist
+25,Bachelor,physics;research,Physicist
+20,High School,photography;art,Photographer
+21,Bachelor,coding;AI,Software Engineer
+22,Bachelor,math;data,Data Scientist
+23,Bachelor,management;strategy,Business Analyst
+18,High School,reading;writing,Journalist
+19,Bachelor,music;performance,Musician
+20,Bachelor,art;sketching,Interior Designer
+21,High School,sports;coaching,Coach
+22,Bachelor,biology;experiments,Biologist
+23,Bachelor,chemistry;research,Chemist
+24,Bachelor,physics;mathematics,Physicist
+25,Bachelor,math;statistics,Statistician
+20,High School,writing;photography,Photographer
+21,Bachelor,design;drawing,Graphic Designer
+22,Bachelor,coding;projects,Software Engineer
+23,Bachelor,math;AI,Data Scientist
+24,Bachelor,management;finance,Business Analyst
+19,High School,mentoring;teaching,Teacher
+20,Bachelor,writing;journalism,Journalist
+21,Bachelor,music;composition,Musician

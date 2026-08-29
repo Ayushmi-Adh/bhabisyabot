@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+ayushmi_adhikari/
+model.pkl
+
+# Environment / secrets
+.env
+*.env.local
+
+# Node / frontend
+node_modules/
+build/
+dist/
+.dist/
+
+# Build output
+*.log
+
+# OS
+.DS_Store
+Thumbs.db

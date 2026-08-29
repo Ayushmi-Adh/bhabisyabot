@@ -1,0 +1,168 @@
+/* Background Stars */
+.stars,
+.stars2,
+.stars3 {
+    position: absolute;
+    width: 2000px;
+    height: 2000px;
+    background: transparent url("https://raw.githubusercontent.com/KyleAMathews/react-headroom/master/example/images/stars.png") repeat;
+    animation: moveStars 60s linear infinite;
+    top: -500px;
+    left: -500px;
+    opacity: 0.3;
+}
+
+.stars2 {
+    animation-duration: 120s;
+    opacity: 0.15;
+}
+
+.stars3 {
+    animation-duration: 180s;
+    opacity: 0.1;
+}
+
+@keyframes moveStars {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(1000px);
+    }
+}
+
+/* Fade in for text + button */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animate-fadeIn {
+    animation: fadeIn 1.2s ease-out forwards;
+}
+
+.delay-200 {
+    animation-delay: 0.2s;
+}
+
+.delay-300 {
+    animation-delay: 0.3s;
+}
+
+/* Slow Pulse Animation for AI Rings */
+@keyframes pulse-slow {
+    0% {
+        opacity: 0.5;
+        transform: scale(0.95);
+    }
+
+    50% {
+        opacity: 1;
+        transform: scale(1.05);
+    }
+
+    100% {
+        opacity: 0.5;
+        transform: scale(0.95);
+    }
+}
+
+.animate-pulse-slow {
+    animation: pulse-slow 6s infinite ease-in-out;
+}
+
+/* Title glow */
+@keyframes titleGlow {
+    0% {
+        text-shadow: 0 0 20px rgba(168, 85, 247, 0.5);
+    }
+
+    50% {
+        text-shadow: 0 0 35px rgba(168, 85, 247, 1);
+    }
+
+    100% {
+        text-shadow: 0 0 20px rgba(168, 85, 247, 0.5);
+    }
+}
+
+.animate-titleGlow {
+    animation: titleGlow 4s infinite ease-in-out;
+}
+
+/* Floating Particles */
+.particle,
+.particle2,
+.particle3 {
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 50%;
+    animation: float 8s infinite ease-in-out;
+}
+
+.particle {
+    top: 10%;
+    left: 20%;
+    animation-duration: 9s;
+}
+
+.particle2 {
+    top: 60%;
+    left: 80%;
+    animation-duration: 11s;
+}
+
+.particle3 {
+    top: 40%;
+    left: 30%;
+    animation-duration: 10s;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0) translateX(0);
+        opacity: 0.2;
+    }
+
+    50% {
+        transform: translateY(-40px) translateX(20px);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateY(0) translateX(0);
+        opacity: 0.2;
+    }
+}
+
+/* Hologram Ring Animation */
+@keyframes holoRing {
+    0% {
+        transform: translateX(-50%) rotate(0deg);
+        opacity: 0.5;
+    }
+
+    50% {
+        transform: translateX(-50%) rotate(180deg);
+        opacity: 0.9;
+    }
+
+    100% {
+        transform: translateX(-50%) rotate(360deg);
+        opacity: 0.5;
+    }
+}
+
+.animate-holoRing {
+    animation: holoRing 8s linear infinite;
+}

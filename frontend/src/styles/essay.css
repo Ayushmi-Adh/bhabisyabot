@@ -1,0 +1,80 @@
+.essay-page {
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    font-family: "Arial", sans-serif;
+}
+
+.gradient-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #4b6cb7 0%, #182848 100%);
+    opacity: 0.6;
+    z-index: 1;
+}
+
+.glass-essay-panel {
+    position: relative;
+    z-index: 2;
+    margin: 5% auto;
+    width: 80%;
+    max-width: 800px;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(15px);
+    border-radius: 20px;
+    padding: 40px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.essay-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+textarea {
+    width: 100%;
+    padding: 20px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    resize: vertical;
+    font-size: 1rem;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    margin-bottom: 20px;
+}
+
+textarea::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.analyze-button {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    background: #a855f7;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.analyze-button:hover {
+    background: #9333ea;
+}
+
+.error-message {
+    color: #ff6b6b;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+}

@@ -1,0 +1,123 @@
+/* result.css */
+
+/* Main page */
+.result-page {
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    overflow-x: hidden;
+}
+
+/* Gradient overlay for background */
+.gradient-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7));
+    z-index: 1;
+}
+
+/* Glass panel for content */
+.glass-result-panel {
+    position: relative;
+    z-index: 10;
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 20px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Titles */
+.result-title {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 25px;
+    color: #f0f0ff;
+    text-shadow: 0 0 8px rgba(150, 130, 255, 0.7);
+}
+
+/* Sections */
+.user-info-section,
+.user-essay-section,
+.essay-analysis-section,
+.recommendations-section {
+    margin-bottom: 25px;
+}
+
+/* Section headings */
+.user-info-section h2,
+.user-essay-section h2,
+.essay-analysis-section h2,
+.recommendations-section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #dcdcff;
+    text-shadow: 0 0 6px rgba(120, 80, 255, 0.6);
+}
+
+/* Paragraphs */
+.user-info-section p,
+.user-essay-section p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #e0e0ff;
+    margin: 4px 0;
+}
+
+/* Essay analysis */
+.essay-analysis-section pre {
+    background: rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    border-radius: 12px;
+    overflow-x: auto;
+    font-size: 0.9rem;
+    color: #c0c0ff;
+}
+
+/* Career recommendations */
+.recommendations-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.recommendations-section li {
+    margin-bottom: 12px;
+    font-size: 1.1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Roadmap button */
+.roadmap-button {
+    padding: 6px 14px;
+    font-size: 0.9rem;
+    border-radius: 8px;
+    border: none;
+    background: linear-gradient(90deg, #6b5bff, #c56bff);
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(120, 80, 255, 0.5);
+}
+
+.roadmap-button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 18px rgba(140, 100, 255, 0.6);
+}
+
+/* Error messages */
+.error-message {
+    color: #ff6b6b;
+    font-weight: 500;
+    margin: 10px 0;
+    text-align: center;
+}
