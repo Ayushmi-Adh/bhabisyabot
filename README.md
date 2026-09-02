@@ -2,7 +2,7 @@
 # BhabisyaBot - AI Career Guidance Assistant
 
 A full-stack career guidance web app that chats with users to learn about their interests, analyzes their essays, and recommends the top careers that fit them using machine learning.
-<img width="400" height="300" alt="original-3875c9416d79c861a9827a67f38ce4eb" src="https://github.com/user-attachments/assets/957c49c4-341a-4724-8ef3-4d88397b4987" />
+<img width="400" height="300" alt="original-3875c9416d79c861a9827a67f38ce4eb" src="https://github.com/user-attachments/assets/957c49c4-341a-4724-8ef3-4d88397b4987" /> 
 ## Tech Stack
 
 | Layer      | Technology                                      |
@@ -83,7 +83,7 @@ uvicorn main:app --reload
 
 The API will be available at `http://localhost:8000` (docs at `/docs`).
 
-### 2. Frontend Setup
+### 2. Frontend Setup :
 
 ```bash
 cd frontend
